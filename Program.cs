@@ -35,8 +35,17 @@ namespace Revisions
 
                     var cloud = new Cloud(view as ViewBase, pointList);
                     cloud.Attributes.Line.Color = DrawingColors.Cyan;
-                    cloud.Bulge = 0.35;
+                    cloud.Bulge = 0.30;
                     cloud.Insert();
+
+                    //var offset = 50;
+                    //if (view.IsSheet) { offset = 5; }
+
+                    //var revisionPoint = new Point(endPoint.X + offset, endPoint.Y + offset);
+                    //var text = new Text(view as ViewBase, revisionPoint, "P01");
+                    //text.Attributes.Frame.Color = DrawingColors.Black;
+                    //text.Attributes.Frame.Type = FrameTypes.Triangle;
+                    //text.Insert();
 
                     dh.GetActiveDrawing().CommitChanges();
                 }
