@@ -47,6 +47,7 @@ namespace Revisions
 
                     var revisionPoint = new Point(endPointRev.X, endPointRev.Y);
                     var text = new Text(view, revisionPoint, rev);
+                    text.Attributes.Font.Height = 2.5;
                     text.Attributes.Frame.Color = DrawingColors.Black;
                     text.Attributes.Frame.Type = FrameTypes.Triangle;
                     text.Attributes.Font.Color = DrawingColors.Cyan;

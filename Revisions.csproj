@@ -66,12 +66,6 @@
     <Reference Include="Tekla.Structures.Plugins, Version=2023.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>packages\Tekla.Structures.Plugins.2023.0.1\lib\net40\Tekla.Structures.Plugins.dll</HintPath>
     </Reference>
-    <Reference Include="Tekla.Technology.MsgLib, Version=2.1.0.18312, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL">
-      <HintPath>packages\Tekla.Technology.Msglib.2.1.18312\lib\net40\Tekla.Technology.MsgLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Tekla.Technology.Rkit, Version=2.1.4.14283, Culture=neutral, PublicKeyToken=a70cba4ef557ee03, processorArchitecture=MSIL">
-      <HintPath>packages\Tekla.Technology.Rkit.2.1.4.17310\lib\net40\Tekla.Technology.Rkit.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
